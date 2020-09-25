@@ -8,9 +8,6 @@ plugins:
     - preset: conventionalcommits
   - - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
+  - - "@semantic-release/changelog"
+    - preset: conventionalcommits
   - - "@semantic-release/github"
-    - assets:
-        - path: poc-semantic-release_darwin_amd64
-          label: PoC Semantic Release - Darwin AMD64
-        - path: poc-semantic-release_linux_amd64
-          label: PoC Semantic Release - Linux AMD64
