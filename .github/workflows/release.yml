@@ -21,6 +21,9 @@ jobs:
       - name: Add plugin for conventional commits
         working-directory: ./.github/workflows
         run: npm install conventional-changelog-conventionalcommits
+      - name: Add plugin for changelog
+        working-directory: ./.github/workflows
+        run: npm install @semantic-release/changelog -D
       - name: Release
         working-directory: ./.github/workflows
         env:
