@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.9.0...v1.10.0) (2020-09-28)
+
+
+### Bug Fixes
+
+* **DEVOPS-89:** remove empty space ([ab00d00](https://github.com/victorsalaun/poc-semantic-release/commit/ab00d002c039b8ec1098002bd48052d19df3036e))
+
+
+### Features
+
+* **DEVOPS-89:** feat 4 ([244729c](https://github.com/victorsalaun/poc-semantic-release/commit/244729c21a2eca429fa6e9baa02cd1200a2602e8))
+
 # [1.9.0-develop.2](https://github.com/victorsalaun/poc-semantic-release/compare/v1.9.0-develop.1...v1.9.0-develop.2) (2020-09-28)
 
 
