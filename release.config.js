@@ -3,8 +3,14 @@ module.exports = {
     tagFormat: "v${version}",
     branches: ["master"],
     plugins: [
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/git",
+        "@semantic-release/commit-analyzer",
+        ["@semantic-release/git", {
+            "assets": ["docs/CHANGELOG.md"]
+        }],
         "@semantic-release/github",
+        "@semantic-release/release-notes-generator",
+        ["@semantic-release/changelog", {
+            "changelogFile": "CHANGELOG.md"
+        }],
     ],
 };
