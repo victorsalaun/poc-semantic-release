@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.11.0...v1.12.0) (2020-09-28)
+
+
+### Features
+
+* **DEVOPS-123:** process.env.GITHUB_REF.replace(/^refs\/heads\//, '') ([a58612f](https://github.com/victorsalaun/poc-semantic-release/commit/a58612fa9afa0a4a1e485b774838cafe3c25f73a))
+
 # [1.10.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.9.0...v1.10.0) (2020-09-28)
 
 ### Bug Fixes
