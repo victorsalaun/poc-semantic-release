@@ -1,4 +1,4 @@
-const branch = process.env.CI_COMMIT_BRANCH
+const branch = process.env.GITHUB_REF
 
 const config = {
     branches: [
