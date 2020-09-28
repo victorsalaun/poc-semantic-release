@@ -5,7 +5,7 @@ module.exports = {
     plugins: [
         "@semantic-release/commit-analyzer",
         ["@semantic-release/git", {
-            "assets": ["docs/CHANGELOG.md"]
+            "assets": ["CHANGELOG.md"]
         }],
         "@semantic-release/github",
         "@semantic-release/release-notes-generator",
