@@ -1,12 +1,39 @@
 ---
 
+
+#  https://semantic-release.gitbook.io/semantic-release/
+#
+# On the master branch a normal release will be made, while on the develop branch a pre-release will be made
+#
+# This config will:
+#   - Check Github Credentials
+#   - Analyse commits to determine the next semantic version
+#   - Generate Release Notes
+#   - Update the Changelog
+#   - Push the changes back to the repo with a [skip ci] commit to prevent CI running again
+#   - Finally create a tag in github
+
 branches:
   - master
+  - name: develop
+    prerelease: true
 
 plugins:
-  - "@semantic-release/changelog"
+  # https://github.com/semantic-release/commit-analyzer
   - "@semantic-release/commit-analyzer"
-  - "@semantic-release/github"
+
+  # https://github.com/semantic-release/release-notes-generator
   - "@semantic-release/release-notes-generator"
+
+  # https://github.com/semantic-release/changelog
+  - "@semantic-release/changelog"
+
+  # https://github.com/semantic-release/git
+  - - "@semantic-release/git"
+    - assets:
+        - "CHANGELOG.md"
+
+  # https://github.com/semantic-release/github
+  - "@semantic-release/github"
 
 tagFormat: "v${version}"
