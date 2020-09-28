@@ -12,20 +12,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - name: Add plugin for conventional commits
-        working-directory: ./.github/workflows
-        run: npm install conventional-changelog-conventionalcommits
-      - name: Add plugin for changelog
-        working-directory: ./.github/workflows
-        run: npm install @semantic-release/changelog -D
       - name: Release
-        working-directory: ./.github/workflows
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          semantic_version: 15.13.28
+          branch: master
+          extra_plugins: |
+            @semantic-release/git
+            @semantic-release/changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
