@@ -1,4 +1,4 @@
-const branch = process.env.GITHUB_REF
+const branch = process.env.GITHUB_REF.replace(/^refs\/heads\//, '')
 
 const config = {
     branches: [
