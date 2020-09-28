@@ -10,4 +10,3 @@ plugins:
     - preset: conventionalcommits
   - - "@semantic-release/changelog"
     - preset: conventionalcommits
-  - - "@semantic-release/github"
