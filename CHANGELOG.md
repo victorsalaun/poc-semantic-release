@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.15.0...v1.16.0) (2020-09-29)
+
+
+### Features
+
+* **GH Actions:** add conventional commit lint ([7e7dbb7](https://github.com/victorsalaun/poc-semantic-release/commit/7e7dbb72486200653080a410ea8dc02f553ab10d))
+
 # [1.15.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.14.0...v1.15.0) (2020-09-29)
 
 
