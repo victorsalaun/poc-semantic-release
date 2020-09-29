@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.14.0...v1.15.0) (2020-09-29)
+
+
+### Features
+
+* **DEVOPS-123:** feature 9 ([b8292d5](https://github.com/victorsalaun/poc-semantic-release/commit/b8292d50612c179cf8afeea03801be6619e077e6))
+
 # [1.14.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.13.0...v1.14.0) (2020-09-28)
 
 
