@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.16.0...v1.17.0) (2020-10-02)
+
+
+### Features
+
+* **GH Actions:** feat 10 ([#9](https://github.com/victorsalaun/poc-semantic-release/issues/9)) ([ccba788](https://github.com/victorsalaun/poc-semantic-release/commit/ccba788cbf98f11a8ee32ec990b38e592d6e630d))
+
 # [1.16.0](https://github.com/victorsalaun/poc-semantic-release/compare/v1.15.0...v1.16.0) (2020-09-29)
 
 
